@@ -37,6 +37,7 @@ public class lab2  {
         }
 
         System.out.println("Total: " + total);
+        System.out.println("Average" + average);
 
         scanner.close();
     }
