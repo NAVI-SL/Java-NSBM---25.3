@@ -43,6 +43,7 @@
 //     }
 // }
 
+
 // // Q2
 // public class lab2 {
 //     public static void main(String[] args) {
@@ -52,6 +53,7 @@
 //         System.out.println("x = " + x + ", y = " + y);
 //     }
 // }
+
 
 // // Q3
 // import java.util.Scanner; 
@@ -69,3 +71,17 @@
 //     }
     
 // }
+
+
+// Q4
+import java.util.Scanner;
+
+public class lab2 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        
+
+        scanner.close();
+    }
+}
