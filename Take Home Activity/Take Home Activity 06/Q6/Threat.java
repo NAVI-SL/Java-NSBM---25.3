@@ -1,3 +1,5 @@
+package Q6;
+
 class Threat {
     String threatId;
     String source;

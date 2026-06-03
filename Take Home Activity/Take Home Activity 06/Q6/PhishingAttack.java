@@ -1,3 +1,5 @@
+package Q6;
+
 public class PhishingAttack extends Threat{
     String targetEmail;
 

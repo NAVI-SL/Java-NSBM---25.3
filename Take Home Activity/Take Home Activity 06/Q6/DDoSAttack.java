@@ -1,3 +1,5 @@
+package Q6;
+
 public class DDoSAttack extends Threat {
     int packetCount;
 
