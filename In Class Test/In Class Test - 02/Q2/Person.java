@@ -43,5 +43,11 @@ public class Person {
         this.email = email;
     }
 
+    public void displayDetails() {
+        System.out.println("Person ID is: " + personID);
+        System.out.println("Person Name is: " + name);
+        System.out.println("Person Age is: " + age);
+        System.out.println("Person Email is: " + email);
+    }
     
 }
