@@ -12,7 +12,7 @@ public class Car extends Vehicle {
 	}
 	
 	//setter
-	public void setNumberOfDoors(String numberOfDoors) {
+	public void setNumberOfDoors(int numberOfDoors) {
 		this.numberOfDoors = numberOfDoors;
 	}
 	
