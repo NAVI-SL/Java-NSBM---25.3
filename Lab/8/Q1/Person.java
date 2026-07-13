@@ -3,7 +3,7 @@ public class Person {
 	private String name;
 	private int age;
 	
-	public Person(int personID, Strinf name, int age) {
+	public Person(int personID, String name, int age) {
 		this.personID = personID;
 		this.name = name;
 		this.age = age;
@@ -11,7 +11,7 @@ public class Person {
 	
 	//Getter
 	public int getPersonID() {
-		return PersonID;
+		return personID;
 	}
 	
 	public String getName() {
@@ -35,6 +35,11 @@ public class Person {
 		this.age = age;
 	}
 	
+	public void displayDetails() {
+		System.out.println("Peson ID is: " + personID);
+		System.out.println("Person Name is: " + name);
+		System.out.println("Person Age is: " + age);
+	}
 	
 	
 	
