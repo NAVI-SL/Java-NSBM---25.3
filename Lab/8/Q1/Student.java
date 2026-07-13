@@ -5,6 +5,16 @@ public class Student extends Person {
 		super(PersonID, name, age);
 		this.course = course;
 	}
+
+	//getter
+	public String getCourse() {
+		return course;
+	}
+
+	//Setter
+	public void setCourse(String course) {
+		this.course = course;
+	}
 	
 	@Override
 	public void displayDetails() {
